@@ -1,0 +1,46 @@
+:root {
+  --yellow:  #F5C842;
+  --coral:   #E8583D;
+  --teal:    #3FBFBF;
+  --purple:  #7B4FA6;
+  --pink:    #E07090;
+  --cream:   #EEF4FF;
+  --dark:    #2D1B3D;
+  --text:    #3a2a4a;
+
+  --font-script: 'Dancing Script', cursive;
+  --font-body:   'Raleway', sans-serif;
+
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--text);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--cream);
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
