@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/wedding/',  // замени 'wedding' на название своего репозитория
+  base: '/wedding/',
   plugins: [react()],
   build: {
     rollupOptions: {
