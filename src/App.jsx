@@ -13,7 +13,6 @@ import calendar from './assets/WeddingImages/MarrySection/calendar.svg'
 import dateRow1 from './assets/WeddingImages/MarrySection/date_row_1.svg'
 import dateRow2 from './assets/WeddingImages/MarrySection/date_row_2.svg'
 
-
 import cloud2 from './assets/WeddingImages/LocationSection/cloud_2.svg'
 import logo from './assets/WeddingImages/LocationSection/Location.svg'
 import cafePhoto from './assets/WeddingImages/LocationSection/cafe_photo.svg'
@@ -106,7 +105,6 @@ function getTimeLeft() {
   }
 }
 
-// Только критичные картинки первого экрана — остальные грузятся в фоне
 const CRITICAL_IMAGES = [
   group4, cloud1, photoHero,
   weMarringBg, wePhrase, marriedPhrase, splash,
@@ -294,7 +292,7 @@ export default function App() {
           alt="Перейти"
           className="chat-section__btn"
           onPointerDown={() => setChatPressed(true)}
-          onPointerUp={() => { setChatPressed(false); window.open('https://t.me/+EtMvlnEdjfRkYzQy', '_blank') }}
+          onPointerUp={() => { setChatPressed(false); window.open('https://vk.me/join/iv1MqxEtEdM7JvkcFJoLQCQGLkLaRzJmrT0=', '_blank') }}
           onPointerLeave={() => setChatPressed(false)}
         />
         <img src={chatRow}        alt=""        className="chat-section__row"       aria-hidden="true" />
