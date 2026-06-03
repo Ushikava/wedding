@@ -317,28 +317,28 @@ export default function App() {
             <span className="timer-section__label">дней</span>
             <div className="timer-section__block-img">
               <img src={timerTimeBlock} alt="" aria-hidden="true" />
-              <span className="timer-section__value">{timeLeft.days}</span>
+              <span className="timer-section__value">{String(timeLeft.days).padStart(2, '0')}</span>
             </div>
           </div>
           <div className="timer-section__block">
             <span className="timer-section__label">часов</span>
             <div className="timer-section__block-img">
               <img src={timerTimeBlock} alt="" aria-hidden="true" />
-              <span className="timer-section__value">{timeLeft.hours}</span>
+              <span className="timer-section__value">{String(timeLeft.hours).padStart(2, '0')}</span>
             </div>
           </div>
           <div className="timer-section__block">
             <span className="timer-section__label">минут</span>
             <div className="timer-section__block-img">
               <img src={timerTimeBlock} alt="" aria-hidden="true" />
-              <span className="timer-section__value">{timeLeft.minutes}</span>
+              <span className="timer-section__value">{String(timeLeft.minutes).padStart(2, '0')}</span>
             </div>
           </div>
           <div className="timer-section__block">
             <span className="timer-section__label">секунд</span>
             <div className="timer-section__block-img">
               <img src={timerTimeBlock} alt="" aria-hidden="true" />
-              <span className="timer-section__value">{timeLeft.seconds}</span>
+              <span className="timer-section__value">{String(timeLeft.seconds).padStart(2, '0')}</span>
             </div>
           </div>
         </div>

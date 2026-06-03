@@ -823,7 +823,6 @@
   z-index: 2;
   margin-top: 223px;
   width: 100%;
-  min-height: 600px;
 }
 
 .timer-section__splash {
@@ -831,6 +830,7 @@
   top: -100px;
   width: 100%;
   height: auto;
+  max-height: 500px;
   position: relative;
   z-index: 1;
 }
@@ -845,7 +845,7 @@
 }
 .timer-section__date {
   position: absolute;
-  top: 35%;
+  top: 105%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: auto;
@@ -855,7 +855,7 @@
 
 .timer-section__blocks {
   position: absolute;
-  top: 18%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
